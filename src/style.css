@@ -1,3 +1,10 @@
+body {
+  background-image: url("./Assets/home-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
 html {
   --section-background-color: linear-gradient(
     to bottom left,
@@ -14,7 +21,7 @@ html {
   --imp-text-color: #c770f0;
 }
 
-.purple {
+.red {
   color: var(--imp-text-color) !important;
 }
 
@@ -257,7 +264,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/home-bg.png);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
